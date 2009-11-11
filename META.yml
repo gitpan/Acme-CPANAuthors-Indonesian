@@ -1,0 +1,14 @@
+---
+abstract: 'We are Indonesian CPAN authors'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+generated_by: 'Dist::Zilla version 1.093000'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-CPANAuthors-Indonesian
+requires:
+  Acme::CPANAuthors: 0
+  Test::More: 0
+version: 0.01
