@@ -1,5 +1,5 @@
 ---
-abstract: 'We are Indonesian CPAN authors'
+abstract: 'We are Indonesian CPAN authors (Kami para penulis CPAN)'
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
 generated_by: 'Dist::Zilla version 1.093000'
@@ -11,4 +11,4 @@ name: Acme-CPANAuthors-Indonesian
 requires:
   Acme::CPANAuthors: 0
   Test::More: 0
-version: 0.01
+version: 0.02

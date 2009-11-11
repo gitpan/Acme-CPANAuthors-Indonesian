@@ -8,8 +8,8 @@ WriteMakefile(
   DISTNAME  => 'Acme-CPANAuthors-Indonesian',
   NAME      => 'Acme::CPANAuthors::Indonesian',
   AUTHOR    => "Steven\ Haryanto\ \<stevenharyanto\@gmail\.com\>",
-  ABSTRACT  => "We\ are\ Indonesian\ CPAN\ authors",
-  VERSION   => '0.01',
+  ABSTRACT  => "We\ are\ Indonesian\ CPAN\ authors\ \(Kami\ para\ penulis\ CPAN\)",
+  VERSION   => '0.02',
   EXE_FILES => [ qw() ],
   (eval { ExtUtils::MakeMaker->VERSION(6.31) } ? (LICENSE => 'perl') : ()),
   PREREQ_PM    => {

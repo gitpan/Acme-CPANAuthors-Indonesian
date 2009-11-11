@@ -1,9 +1,11 @@
 package Acme::CPANAuthors::Indonesian;
 
+# ABSTRACT: We are Indonesian CPAN authors (Kami para penulis CPAN)
+
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Acme::CPANAuthors::Register (
     DNS         => 'Daniel Sirait',
@@ -14,17 +16,17 @@ use Acme::CPANAuthors::Register (
 
 1;
 
-__END__
+
+
+=pod
 
 =head1 NAME
 
-Acme::CPANAuthors::Indonesian - We are Indonesian CPAN authors
+Acme::CPANAuthors::Indonesian - We are Indonesian CPAN authors (Kami para penulis CPAN)
 
 =head1 VERSION
 
-version 0.01
-
-Acme::CPANAuthors::Indonesian - Para penulis CPAN Indonesia
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -38,7 +40,6 @@ Acme::CPANAuthors::Indonesian - Para penulis CPAN Indonesia
    my @distros  = $authors->distributions('HASANT');
    my $url      = $authors->avatar_url('EDPRATOMO');
    my $kwalitee = $authors->kwalitee('SHARYANTO');
-
 
 =head1 DESCRIPTION
 
@@ -54,4 +55,19 @@ L<Acme::CPANAuthors> - Main class to manipulate this one
 
 L<Acme::CPANAuthors::Chinese> - Code and documentation nearly taken verbatim from it
 
+=head1 AUTHOR
+
+  Steven Haryanto <stevenharyanto@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2009 by Steven Haryanto.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =cut
+
+
+__END__
+
