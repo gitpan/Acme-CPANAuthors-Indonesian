@@ -1,14 +1,20 @@
 ---
-abstract: 'We are Indonesian CPAN authors (Kami para penulis CPAN)'
+abstract: 'We are Indonesian CPAN authors (Kami para penulis CPAN Indonesia)'
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
-generated_by: 'Dist::Zilla version 1.093000'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Acme-CPANAuthors-Indonesian
 requires:
-  Acme::CPANAuthors: 0
-  Test::More: 0
-version: 0.02
+  Acme::CPANAuthors::Register: 0
+resources:
+  homepage: http://search.cpan.org/dist/Acme-CPANAuthors-Indonesian/
+  repository: http://github.com/sharyanto/perl-Acme-CPANAuthors-Indonesian
+version: 0.03
