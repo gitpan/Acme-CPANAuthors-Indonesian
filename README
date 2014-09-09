@@ -3,7 +3,9 @@ NAME
     para penulis CPAN Indonesia)
 
 VERSION
-    version 0.03
+    This document describes version 0.04 of Acme::CPANAuthors::Indonesian
+    (from Perl distribution Acme-CPANAuthors-Indonesian), released on
+    2014-09-09.
 
 SYNOPSIS
        use Acme::CPANAuthors;
@@ -31,14 +33,27 @@ MAINTENANCE
 SEE ALSO
     Acme::CPANAuthors - Main class to manipulate this one
 
-    Acme::CPANAuthors::Chinese - Code and documentation nearly taken
-    verbatim from it
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Acme-CPANAuthors-Indonesian>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/perlancar/perl-Acme-CPANAuthors-Indonesian>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Indo
+    nesian>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
 
 AUTHOR
-    Steven Haryanto <stevenharyanto@gmail.com>
+    perlancar <perlancar@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Steven Haryanto.
+    This software is copyright (c) 2014 by perlancar@cpan.org.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
